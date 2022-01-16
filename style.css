@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+
+    font-family: Roboto;
+
+}
+
+
+.menu {
+
+    position: absolute;
+    width: 1152px;
+    height: 50px;
+
+}
+
+.Title {
+
+
+    padding-top: 100px;
+    padding-left: 255px;
+
+
+}
+
+h1 {
+
+    font-size: 36px;
+
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+button {
+    cursor: pointer;
+
+}
+
+button {
+
+    background-color: white;
+
+
+
+    cursor: pointer;
+
+    border-color: white;
+
+
+}
+
+button:hover {
+
+    background-color:
+        #833AE0;
+    border-color: white;
+    color:
+        white;
+
+}
+
+.navbar {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.ruble-1 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-left: 5px;
+
+}
+
+.inp {
+
+    border: none;
+
+    height: 40px;
+}
+
+.box1 {
+
+    border-style: solid;
+    width: 200px;
+
+}
+
+.ruble-2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #C6C6C6;
+    margin-left: 5px;
+
+}
+
+
+.box2 {
+
+    border-style: solid;
+    width: 200px;
+
+}
+
+.wrapper {
+
+    display: flex;
+}
+
+.right-box {
+
+    margin-left: 50px;
+}
+
+.text {
+
+    color: grey;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin-left: 260px;
+
+}

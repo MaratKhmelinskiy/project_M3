@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class='menu'><img src=image/menu.svg></div>
+    </header>
+
+    <main>
+        <div class='Title'>
+            <h1>Конвертер валют онлайн</h1>
+        </div>
+        <div class='wrapper'>
+            <div class='left-box'>
+                <p class='text'>У меня есть</p>
+                <ul class="navbar">
+                    <li><button id="RUB">RUB</button></li>
+                    <li><button id="USD">USD</button></li>
+                    <li><button id="EUR">EUR</button></li>
+                    <li><button id="GBR">GBR</button></li>
+                </ul>
+                <div class='box1'>
+                    <input type="number" value="1" min="-99.0" max="99.0" step="0.1" class='inp'>
+                    <p class="ruble-1">4232354</p>
+                </div>
+            </div>
+            <div class='right-box'>
+                <p class='text'>Хочу приобрести</p>
+                <ul class="navbar">
+                    <li><button id="RUB1">RUB</button></li>
+                    <li><button id="USD1">USD</button></li>
+                    <li><button id="EUR1">EUR</button></li>
+                    <li><button id="GBR1">GBR</button></li>
+                </ul>
+                <div class='box2'>
+                    <input type="number" min="-99.0" max="99.0" step="0.1" class='inp'>
+                    <p class="ruble-2">4232354</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
